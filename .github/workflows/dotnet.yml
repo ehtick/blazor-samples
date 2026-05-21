@@ -46,4 +46,3 @@ jobs:
       run: dotnet build ./Blazor-MAUI-Demos/Blazor_MAUI_Demos_NET8.csproj
     - name: Build MAUI NET 9
       run: dotnet build ./Blazor-MAUI-Demos/Blazor_MAUI_Demos_NET9.csproj
-    
