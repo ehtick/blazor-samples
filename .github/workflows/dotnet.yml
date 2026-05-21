@@ -31,7 +31,7 @@ jobs:
     - name: Install Wasm Tools .NET 8
       run: dotnet workload install wasm-tools-net8
     - name: Install Wasm Tools .NET 9
-      run: dotnet workload install wasm-tools
+      run: dotnet workload install wasm-tools-net9
     - name: Build Server NET 8
       run: dotnet build ./Blazor-Server-Demos/Blazor_Server_Demos_NET8.csproj
     - name: Build Server NET 9
